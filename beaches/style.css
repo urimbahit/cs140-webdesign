@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-color: #DADFA9; 
+    text-align: center;
+    font-family: "Alfa Slab One", serif; font-weight: 400; font-style: normal;
+}
+
+h1{
+    color:#1c6371;
+    font-size: 55px;
+}
+
+h2{
+    color:#278da2;
+    font-size: 30px;
+    border: 10px double; 
+    padding: 20px;
+    border-radius: 50px;                  
+    margin: 15px auto;
+    max-width: 800px;
+}
+
+h3{
+    color:#30a4bb;
+    font-size: 20px;
+    border: 5px dotted; 
+    padding: 20px;
+    border-radius: 50px;               
+    margin: 15px auto;
+    max-width: 800px;
+}
+
+p{
+    color: #40553b;
+    font-size: 15px;
+}
+
+ul{
+    list-style-position: inside; 
+    padding-left: 0;
+}
+
+a{  
+    font-family: "Alfa Slab One", serif; font-weight: 300; font-style: normal;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c6371;
+    color: #E6ECC6;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #926997;
+}
+
+a:hover {
+    color: #926997;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+/* 4. Active/clicked state */
+a:active {
+    color: #526d4b;
+}
+
+.deemphasize{
+    color: #6d7e68;
+    font-size: 14px;
+}
+
+.emphasize{
+    color: #926997;
+}
+
+.tborder{
+    margin: 15px auto;
+    max-width: 400px; 
+}
+
+.border{
+    border: 6px double; 
+    padding: 20px;                  
+    margin: 15px auto;
+    max-width: 800px; 
+}
+
+.sidetoside{
+    display: inline-flex; 
+    align-items: center; 
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#main{
+    background-color: #E6ECC6;
+}
