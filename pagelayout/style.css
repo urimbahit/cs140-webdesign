@@ -37,8 +37,7 @@ figure.right {
 figcaption {
     font-family: "Oswald", serif;
     font-weight: 700;
-    font-style: bold;
-    /* color: #BF7463; */
+    font-style: italic;
     color: #1F1726;
     font-size: 20px;
     text-shadow: 4px 4px 2px #BF7463;
