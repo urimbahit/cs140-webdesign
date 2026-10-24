@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200..700&display=swap');
 
-.wrapper{
+.wrapper {
     width: 820px;
     margin: 0 auto;
     text-align: center;
     background-color: #d7d8d989;
 }
 
-body{
+body {
     /* background-color: #609FA6; */
     background-image: url("pl_assets/fam.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
-figure.left{
+figure.left {
     float: left;
     padding: 20px;
     border: 5px solid #BF7463;
     border-radius: 18px;
     box-shadow: 5px 5px 2px rgb(70, 70, 70);
 
-    
+
 }
 
-figure.right{
+figure.right {
     float: right;
     padding: 20px;
     border: 5px solid #BF7463;
@@ -34,7 +34,7 @@ figure.right{
 
 }
 
-figcaption{
+figcaption {
     font-family: "Oswald", serif;
     font-weight: 400;
     font-style: bold;
@@ -44,18 +44,18 @@ figcaption{
     text-shadow: 4px 4px 2px #BF7463;
 }
 
-h1{
-    font-family: "Alfa Slab One", serif; 
-    font-weight: 600; 
+h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 600;
     font-style: bold;
     color: #1F1726;
     font-size: 100px;
     text-shadow: 5px 5px 5px #92A649;
 }
 
-h2{
-    font-family: "Alfa Slab One", serif; 
-    font-weight: 600; 
+h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 600;
     font-style: bold;
     color: #1F1726;
     text-shadow: 4px 4px 5px #92A649;
@@ -63,16 +63,17 @@ h2{
 
 }
 
-p, small{
+p,
+small {
     font-family: "Oswald", serif;
     font-weight: 400;
     font-style: normal;
     color: #1F1726;
 }
 
-a{  
-    font-family: "Alfa Slab One", serif; 
-    font-weight: 300; 
+a {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
     font-style: normal;
     padding: 10px 10px;
     border: 5px solid #92A649;
