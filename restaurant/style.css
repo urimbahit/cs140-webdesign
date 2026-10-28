@@ -1,0 +1,56 @@
+body{
+    width: 800px;
+    border: 3px solid black;
+    box-shadow: 3px 5px grey;
+}
+
+header{
+    background-color: rgb(147, 165, 181);
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 15px;
+    border: 2px dotted black;
+    text-align: center;
+}
+
+.special {
+    grid-column: 1 / 4;
+    background-color: pink;
+    font-size: 25px;
+}
+
+.food2 {
+    background-color: #F2C9E4;
+    grid-column: 1 / 3;
+    padding: 5px;
+}
+
+.food3 {
+    background-color: #C2C4F2;
+    padding: 5px;
+}
+
+.food4 {
+    background-color: #5B9ED9;
+    padding: 5px;
+}
+
+.food5 {
+    background-color: #7754F5;
+    padding: 5px;
+}
+
+.food6 {
+    background-color: #46718C;
+    padding: 5px;
+}
