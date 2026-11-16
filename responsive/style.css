@@ -114,7 +114,7 @@ aside {
     flex: 1;
     min-width: 0;
     background-color: #1f2326;
-    border-left: 4px solid #ff4655;
+    border: 4px solid #ff4655;
     padding: 0 16px 16px;
 }
 
