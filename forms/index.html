@@ -14,44 +14,65 @@
         <hr>
     </header>
     <main>
-        <h2>FORM</h2>
         <form action="#" method="get">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required><hr>
+            <fieldset>
+                <legend>THE FORM</legend>
+                <div class="row">
+                    <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" require>
+                </div>
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required><hr>
+                </div>
+                <div class="row">
+                    <label for="gender">Gender:</label>
+                    <div>
+                        <input type="radio" name="gender" id="gender" value="Male">
+                        <label for="Male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" value="Female">
+                        <label for="Female">Female</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="Fav_class">Favorite Class:</label>
+                    <div>
+                        <select name="Fav_class" id="Fav_class">
+                            <option disabled hidden selected>Choose One</option>
+                            <option value="CS-101">CS-101</option>
+                            <option value="CS-140">CS-140</option>
+                            <option value="REL-200">REL-200</option>
+                            <option value="IT-124">IT-124</option>
+                            <option value="STDEV">STDEV</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+           
+                        <label for="skills">Skills:</label>
+                    <div>
+                        <input type="checkbox" id="skill1" name="skill1" value="problem solving">
+                        <label for="skill1">Problem solving</label><br>
+                        <input type="checkbox" id="skill2" name="skill2" value="critical & analytical thinking">
+                        <label for="skill2">Critical & Analytical Thinking</label><br>
+                        <input type="checkbox" id="skill3" name="skill3" value="Technical Communication">
+                        <label for="skill3">Technical Communication</label><br>
+                        <input type="checkbox" id="skill3" name="skill3" value="Teamwork & Collaboration">
+                        <label for="skill3">Teamwork & Collaboration</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message"></textarea>
 
-            <label for="gender">Gender:</label>
-            <input type="radio" name="gender" id="gender" value="Male">
-            <label for="Male">Male</label>
-            <input type="radio" name="gender" value="Female">
-            <label for="Female">Female</label><hr>
-
-            <label for="Fav_class">Favorite Class:</label>
-            <select name="Fav_class" id="Fav_class">
-                <option disabled hidden selected>Choose One</option>
-                <option value="CS-101">CS-101</option>
-                <option value="CS-140">CS-140</option>
-                <option value="REL-200">REL-200</option>
-                <option value="IT-124">IT-124</option>
-                <option value="STDEV">STDEV</option>
-            </select><hr>
-
-            <label for="skills">Skills:</label><br>
-            <input type="checkbox" id="skill1" name="skill1" value="problem solving">
-            <label for="skill1">Problem solving</label><br>
-            <input type="checkbox" id="skill2" name="skill2" value="critical & analytical thinking">
-            <label for="skill2">Critical & Analytical Thinking</label><br>
-            <input type="checkbox" id="skill3" name="skill3" value="Technical Communication">
-            <label for="skill3">Technical Communication</label><br>
-            <input type="checkbox" id="skill3" name="skill3" value="Teamwork & Collaboration">
-            <label for="skill3">Teamwork & Collaboration</label><hr>
-
-            <label for="message">Message:</label>
-            <textarea name="message" id="message"></textarea><hr>
-
-            <button type="submit">Submit</button>
+                </div>
+                <div class="row">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
         </form>
     </main>
     <footer>
